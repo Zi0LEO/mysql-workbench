@@ -1,68 +1,67 @@
     <!-- 
-dark-gray:         #32302f;
-brown-gray:        #3c3836;
-gray:              #7c6f64;
-light-gray:        #a89984;
-ghost-white:       #d4be98;
-ight-white_defult:#ddc7a1;
-yellow:            #d8a657;
-gray_comment:      #46413e;
-red_keyword:       #ea6962;
-purple:            #d3869b;
-brown:             #574833;
-orange_operators:  #e78a4e;
-light-orange:      #e7a673;
-blue_variables:    #7daea3;
-green:             #a9b665;
-sea-green:         #89b482; 
+dark-gray:         #282a36;
+brown-gray:        #49483E;
+gray:              #888888;
+light-gray:        #CCCCCC;
+ghost-white:       #F8F8F0;
+light-ghost-white: #F8F8F2;
+yellow:            #f1fa8c;
+blue:              #8be9fd;
+pink:              #ff79c6;
+purple:            #bd93f9;
+brown:             #75715E;
+orange:            #FD971F;
+light-orange:      #ffb86c;
+green:             #50fa7b;
+sea-green:         #529B2F; 
 -->
 
-<style id="32" fore-color-light="#f8f8f2" back-color-light="#32302f" fore-color-dark="#f8f8f2" back-color-dark="#32302f" bold="No" />   <!-- STYLE_DEFAULT       !BACKGROUND!   -->
-<style id="33" fore-color-light="#f8f8f2" back-color-light="#32302f" fore-color-dark="#f8f8f2" back-color-dark="#32302f" bold="No" />   <!-- STYLE_LINENUMBER                   -->
-<style id= "0" fore-color-light="#ddc7a1" back-color-light="#32302f" fore-color-dark="#ddc7a1" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_DEFAULT                  -->
+<style id="32" fore-color-light="#f8f8f2" back-color-light="#282a36" fore-color-dark="#f8f8f2" back-color-dark="#282a36" bold="No" />   <!-- STYLE_DEFAULT       !BACKGROUND!   -->
+<style id="33" fore-color-light="#f8f8f2" back-color-light="#282a36" fore-color-dark="#f8f8f2" back-color-dark="#282a36" bold="No" />   <!-- STYLE_LINENUMBER                   -->
+<style id= "0" fore-color-light="#f8f8f2" back-color-light="#282a36" fore-color-dark="#f8f8f2" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_DEFAULT                  -->
 
-<style id= "1" fore-color-light="#6272a4" back-color-light="#32302f" fore-color-dark="#6272a4" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_COMMENT                  -->
-<style id= "2" fore-color-light="#6272a4" back-color-light="#32302f" fore-color-dark="#6272a4" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_COMMENTLINE              -->
-<style id= "3" fore-color-light="#7daea3" back-color-light="#32302f" fore-color-dark="#7daea3" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_VARIABLE                 -->
-<style id= "4" fore-color-light="#7daea3" back-color-light="#32302f" fore-color-dark="#7daea3" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_SYSTEMVARIABLE           -->
-<style id= "5" fore-color-light="#7daea3" back-color-light="#32302f" fore-color-dark="#7daea3" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_KNOWNSYSTEMVARIABLE      -->
-<style id= "6" fore-color-light="#d3869b" back-color-light="#32302f" fore-color-dark="#d3869b" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_NUMBER                   -->
-<style id= "7" fore-color-light="#ea6962" back-color-light="#32302f" fore-color-dark="#ea6962" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_MAJORKEYWORD             -->
-<style id= "8" fore-color-light="#ea6962" back-color-light="#32302f" fore-color-dark="#ea6962" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_KEYWORD                  -->
-<style id= "9" fore-color-light="#a9b665" back-color-light="#32302f" fore-color-dark="#a9b665" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_DATABASEOBJECT           -->
-<style id="10" fore-color-light="#f8f8f2" back-color-light="#32302f" fore-color-dark="#f8f8f2" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_PROCEDUREKEYWORD         -->
-<style id="11" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_STRING                   -->
-<style id="12" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_SQSTRING                 -->
-<style id="13" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_DQSTRING                 -->
-<style id="14" fore-color-light="#e78a4e" back-color-light="#32302f" fore-color-dark="#e78a4e" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_OPERATOR                 -->
-<style id="15" fore-color-light="#a9b665" back-color-light="#32302f" fore-color-dark="#a9b665" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_FUNCTION                 -->
-<style id="16" fore-color-light="#f8f8f2" back-color-light="#32302f" fore-color-dark="#f8f8f2" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_IDENTIFIER               -->
-<style id="17" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_QUOTEDIDENTIFIER         -->
-<style id="18" fore-color-light="#89b482" back-color-light="#32302f" fore-color-dark="#89b482" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_USER1                    -->
-<style id="19" fore-color-light="#89b482" back-color-light="#32302f" fore-color-dark="#89b482" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_USER2                    -->
-<style id="20" fore-color-light="#89b482" back-color-light="#32302f" fore-color-dark="#89b482" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_USER3                    -->
-<style id="21" fore-color-light="#46413e" back-color-light="#3c3836" fore-color-dark="#46413e" back-color-dark="#3c3836" bold="No" />   <!-- SCE_MYSQL_HIDDENCOMMAND            -->
-<style id="22" fore-color-light="#909090" back-color-light="#3c3836" fore-color-dark="#909090" back-color-dark="#3c3836" bold="No" />   <!-- SCE_MYSQL_PLACEHOLDER              -->
+<style id= "1" fore-color-light="#6272a4" back-color-light="#282a36" fore-color-dark="#6272a4" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_COMMENT                  -->
+<style id= "2" fore-color-light="#6272a4" back-color-light="#282a36" fore-color-dark="#6272a4" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_COMMENTLINE              -->
+<style id= "3" fore-color-light="#f8f8f2" back-color-light="#282a36" fore-color-dark="#f8f8f2" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_VARIABLE                 -->
+<style id= "4" fore-color-light="#8be9fd" back-color-light="#282a36" fore-color-dark="#8be9fd" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_SYSTEMVARIABLE           -->
+<style id= "5" fore-color-light="#8be9fd" back-color-light="#282a36" fore-color-dark="#8be9fd" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_KNOWNSYSTEMVARIABLE      -->
+<style id= "6" fore-color-light="#bd93f9" back-color-light="#282a36" fore-color-dark="#bd93f9" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_NUMBER                   -->
+<style id= "7" fore-color-light="#ff79c6" back-color-light="#282a36" fore-color-dark="#ff79c6" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_MAJORKEYWORD             -->
+<style id= "8" fore-color-light="#ff79c6" back-color-light="#282a36" fore-color-dark="#ff79c6" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_KEYWORD                  -->
+<style id= "9" fore-color-light="#50fa7b" back-color-light="#282a36" fore-color-dark="#50fa7b" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_DATABASEOBJECT           -->
+<style id="10" fore-color-light="#f8f8f2" back-color-light="#282a36" fore-color-dark="#f8f8f2" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_PROCEDUREKEYWORD         -->
+<style id="11" fore-color-light="#f1fa8c" back-color-light="#282a36" fore-color-dark="#f1fa8c" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_STRING                   -->
+<style id="12" fore-color-light="#f1fa8c" back-color-light="#282a36" fore-color-dark="#f1fa8c" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_SQSTRING                 -->
+<style id="13" fore-color-light="#f1fa8c" back-color-light="#282a36" fore-color-dark="#f1fa8c" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_DQSTRING                 -->
+<style id="14" fore-color-light="#ff79c6" back-color-light="#282a36" fore-color-dark="#ff79c6" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_OPERATOR                 -->
+<style id="15" fore-color-light="#50fa7b" back-color-light="#282a36" fore-color-dark="#50fa7b" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_FUNCTION                 -->
+<style id="16" fore-color-light="#f8f8f2" back-color-light="#282a36" fore-color-dark="#f8f8f2" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_IDENTIFIER               -->
+<style id="17" fore-color-light="#f1fa8c" back-color-light="#282a36" fore-color-dark="#f1fa8c" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_QUOTEDIDENTIFIER         -->
+<style id="18" fore-color-light="#529B2F" back-color-light="#282a36" fore-color-dark="#529B2F" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_USER1                    -->
+<style id="19" fore-color-light="#529B2F" back-color-light="#282a36" fore-color-dark="#529B2F" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_USER2                    -->
+<style id="20" fore-color-light="#529B2F" back-color-light="#282a36" fore-color-dark="#529B2F" back-color-dark="#282a36" bold="No" />   <!-- SCE_MYSQL_USER3                    -->
+<style id="21" fore-color-light="#8be9fd" back-color-light="#49483E" fore-color-dark="#8be9fd" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_HIDDENCOMMAND            -->
+<style id="22" fore-color-light="#909090" back-color-light="#49483E" fore-color-dark="#909090" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_PLACEHOLDER              -->
 <!-- All styles again in their variant in a hidden command -->
-<style id="65" fore-color-light="#6272a4" back-color-light="#32302f" fore-color-dark="#6272a4" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_COMMENT                  -->
-<style id="66" fore-color-light="#6272a4" back-color-light="#32302f" fore-color-dark="#6272a4" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_COMMENTLINE              -->
-<style id="67" fore-color-light="#7daea3" back-color-light="#32302f" fore-color-dark="#7daea3" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_VARIABLE                 -->
-<style id="68" fore-color-light="#7daea3" back-color-light="#32302f" fore-color-dark="#7daea3" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_SYSTEMVARIABLE           -->
-<style id="69" fore-color-light="#7daea3" back-color-light="#32302f" fore-color-dark="#7daea3" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_KNOWNSYSTEMVARIABLE      -->
-<style id="70" fore-color-light="#d3869b" back-color-light="#32302f" fore-color-dark="#d3869b" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_NUMBER                   -->
-<style id="71" fore-color-light="#ea6962" back-color-light="#32302f" fore-color-dark="#ea6962" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_MAJORKEYWORD             -->
-<style id="72" fore-color-light="#ea6962" back-color-light="#32302f" fore-color-dark="#ea6962" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_KEYWORD                  -->
-<style id="73" fore-color-light="#a9b665" back-color-light="#32302f" fore-color-dark="#a9b665" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_DATABASEOBJECT           -->
-<style id="74" fore-color-light="#f8f8f2" back-color-light="#32302f" fore-color-dark="#f8f8f2" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_PROCEDUREKEYWORD         -->
-<style id="75" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_STRING                   -->
-<style id="76" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_SQSTRING                 -->
-<style id="77" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_DQSTRING                 -->
-<style id="78" fore-color-light="#e78a4e" back-color-light="#32302f" fore-color-dark="#e78a4e" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_OPERATOR                 -->
-<style id="79" fore-color-light="#a9b665" back-color-light="#32302f" fore-color-dark="#a9b665" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_FUNCTION                 -->
-<style id="80" fore-color-light="#f8f8f2" back-color-light="#32302f" fore-color-dark="#f8f8f2" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_IDENTIFIER               -->
-<style id="81" fore-color-light="#d8a657" back-color-light="#32302f" fore-color-dark="#d8a657" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_QUOTEDIDENTIFIER         -->
-<style id="82" fore-color-light="#89b482" back-color-light="#32302f" fore-color-dark="#89b482" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_USER1                    -->
-<style id="83" fore-color-light="#89b482" back-color-light="#32302f" fore-color-dark="#89b482" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_USER2                    -->
-<style id="84" fore-color-light="#89b482" back-color-light="#32302f" fore-color-dark="#89b482" back-color-dark="#32302f" bold="No" />   <!-- SCE_MYSQL_USER3                    -->
-<style id="85" fore-color-light="#46413e" back-color-light="#3c3836" fore-color-dark="#46413e" back-color-dark="#3c3836" bold="No" />   <!-- SCE_MYSQL_HIDDENCOMMAND            -->
-<style id="86" fore-color-light="#909090" back-color-light="#3c3836" fore-color-dark="#909090" back-color-dark="#3c3836" bold="No" />   <!-- SCE_MYSQL_PLACEHOLDER              -->
+<style id="65" fore-color-light="#6272a4" back-color-light="#49483E" fore-color-dark="#6272a4" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_COMMENT                  -->
+<style id="66" fore-color-light="#6272a4" back-color-light="#49483E" fore-color-dark="#6272a4" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_COMMENTLINE              -->
+<style id="67" fore-color-light="#f8f8f2" back-color-light="#49483E" fore-color-dark="#f8f8f2" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_VARIABLE                 -->
+<style id="68" fore-color-light="#8be9fd" back-color-light="#49483E" fore-color-dark="#8be9fd" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_SYSTEMVARIABLE           -->
+<style id="69" fore-color-light="#8be9fd" back-color-light="#49483E" fore-color-dark="#8be9fd" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_KNOWNSYSTEMVARIABLE      -->
+<style id="70" fore-color-light="#bd93f9" back-color-light="#49483E" fore-color-dark="#bd93f9" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_NUMBER                   -->
+<style id="71" fore-color-light="#ff79c6" back-color-light="#49483E" fore-color-dark="#ff79c6" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_MAJORKEYWORD             -->
+<style id="72" fore-color-light="#ff79c6" back-color-light="#49483E" fore-color-dark="#ff79c6" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_KEYWORD                  -->
+<style id="73" fore-color-light="#50fa7b" back-color-light="#49483E" fore-color-dark="#50fa7b" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_DATABASEOBJECT           -->
+<style id="74" fore-color-light="#f8f8f2" back-color-light="#49483E" fore-color-dark="#f8f8f2" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_PROCEDUREKEYWORD         -->
+<style id="75" fore-color-light="#f1fa8c" back-color-light="#49483E" fore-color-dark="#f1fa8c" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_STRING                   -->
+<style id="76" fore-color-light="#f1fa8c" back-color-light="#49483E" fore-color-dark="#f1fa8c" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_SQSTRING                 -->
+<style id="77" fore-color-light="#f1fa8c" back-color-light="#49483E" fore-color-dark="#f1fa8c" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_DQSTRING                 -->
+<style id="78" fore-color-light="#ff79c6" back-color-light="#49483E" fore-color-dark="#ff79c6" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_OPERATOR                 -->
+<style id="79" fore-color-light="#50fa7b" back-color-light="#49483E" fore-color-dark="#50fa7b" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_FUNCTION                 -->
+<style id="80" fore-color-light="#f8f8f2" back-color-light="#49483E" fore-color-dark="#f8f8f2" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_IDENTIFIER               -->
+<style id="81" fore-color-light="#f1fa8c" back-color-light="#49483E" fore-color-dark="#f1fa8c" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_QUOTEDIDENTIFIER         -->
+<style id="82" fore-color-light="#529B2F" back-color-light="#49483E" fore-color-dark="#529B2F" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_USER1                    -->
+<style id="83" fore-color-light="#529B2F" back-color-light="#49483E" fore-color-dark="#529B2F" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_USER2                    -->
+<style id="84" fore-color-light="#529B2F" back-color-light="#49483E" fore-color-dark="#529B2F" back-color-dark="#49483E" bold="No" />   <!-- SCE_MYSQL_USER3                    -->
+<style id="85" fore-color-light="#8be9fd" back-color-light="#888888" fore-color-dark="#8be9fd" back-color-dark="#888888" bold="No" />   <!-- SCE_MYSQL_HIDDENCOMMAND            -->
+<style id="86" fore-color-light="#AAAAAA" back-color-light="#888888" fore-color-dark="#AAAAAA" back-color-dark="#888888" bold="No" />   <!-- SCE_MYSQL_PLACEHOLDER              -->  
