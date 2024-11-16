@@ -7,6 +7,10 @@
 ## Install
 
 I based this colorscheme on Dracula, so you can find all the instuctions for installation at [draculatheme.com/mysql-workbench](https://draculatheme.com/mysql-workbench).
+Obviously when cloning the repo you will need to clone this repo, not the Dracula one.
+```
+git clone https://github.com/Zi0LEO/mysql-workbench.git
+```  
 
 ## License
 
